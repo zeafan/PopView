@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mohamed.popview.MainActivity">
+
+    <!--<TextView-->
+    <!--android:id="@+id/txtV1"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:textSize="30dp"-->
+    <!--android:padding="10dp"-->
+    <!--android:layout_margin="5dp"-->
+    <!--android:background="@color/colorPrimaryDark"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--style="@style/AlertDialog.AppCompat.Light"-->
+    <!--android:gravity="center"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Hello World!"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintHorizontal_bias="0.457"-->
+    <!--app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--app:layout_constraintRight_toRightOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent"-->
+    <!--app:layout_constraintVertical_bias="0.002" />-->
+
+    <!--<pl.bclogic.pulsator4droid.library.PulsatorLayout-->
+    <!--android:id="@+id/pulsator"-->
+    <!--android:layout_width="368dp"-->
+    <!--android:layout_height="495dp"-->
+    <!--app:pulse_color="@color/colorAccent"-->
+    <!--app:pulse_count="20"-->
+    <!--app:pulse_duration="5000"-->
+    <!--app:pulse_interpolator="AccelerateDecelerate"-->
+    <!--app:pulse_repeat="0"-->
+    <!--app:pulse_startFromScratch="true"-->
+    <!--tools:layout_editor_absoluteX="8dp"-->
+    <!--tools:layout_editor_absoluteY="8dp">-->
+    <!---->
+    <!--</pl.bclogic.pulsator4droid.library.PulsatorLayout>-->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="198dp"
+        android:layout_gravity="center"
+        android:src="@drawable/slanted_mode" />
+</android.support.constraint.ConstraintLayout>
